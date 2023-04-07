@@ -23,4 +23,5 @@ module "openshift" {
     openshift_pull_secret_string                = var.openshift_pull_secret_string
     openshift_additional_trust_bundle_string    = var.openshift_additional_trust_bundle_string 
     bootstrap_cleanup                           = var.bootstrap_cleanup
+    azure_worker_root_volume_size               = var.azure_worker_root_volume_size
 }
